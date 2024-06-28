@@ -1,10 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/767/618/large_2x/oil-brush-pink-color-pattern-background-design-for-background-wallpaper-and-diy-product-free-photo.jpg");
+}
 .h1{
     text-align: center;
-    text-shadow:0 10px 20px 0 #ff8080;
+    text-shadow:0 10px 20px 0 	 #d27979;
     color: #800000;
-    margin: 30px auto auto auto;
+    margin: 30px auto auto auto ;
     font-family: PT Serif;
 }
 .num-container{
@@ -14,7 +17,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    color: #732626;
+    color: #800000;
 }
 #num1{
     height: 50px;
@@ -31,7 +34,9 @@
 }
 #answer{
     text-align: center;
-    color: #732626;
+    color: #800000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 .container{
     display: flex;
@@ -41,7 +46,7 @@
     margin-left: 20px;
 }
 .container .btn {
-    background-color: #e6b3b3;
+    background-color: 	 #d27979;
     color: black;
     font-size: 16px;
     padding: 16px 30px;
@@ -56,6 +61,6 @@
   }
   
 .container .btn:hover {
-    background-color: #993333;
+    background-color: #800000;
     color: white;
   }
