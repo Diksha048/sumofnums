@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.h1{
+    text-align: center;
+    text-shadow:0 10px 20px 0 #ff8080;
+    color: #800000;
+    margin: 30px auto auto auto;
+    font-family: PT Serif;
+}
+.num-container{
+    display: block;
+    justify-content: space-between;
+    margin: 70px 50px 50px 40px ;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#num1{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+}
+#num2{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+}
+#answer{
+    text-align: center;
+}
+
+.container .btn {
+    top: 50%;
+    left: 50%;
+    background-color: #e6b3b3;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  
+.container .btn:hover {
+    background-color: #993333;
+    color: white;
+  }
