@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUM OF NUMS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sum Of Two Numbers</h1>
+    <h1 class="h1">Sum Of Two Numbers</h1>
+    <div class="num-container">
+        <p>Enter the number 1 : <p> 
+        <input type="text" id="num1" /><br/><br/>
+        <p>Enter the number 2 : </p>
+        <input type="text" id="num2" /><br/><br/>
+    </div>
+
+    <P id="answer"> Answer:</P>
+
+    <div class="container">
+        <button type="button" class="btn" onclick="calsum()">Calculate</button>
+        <button type="button" class="btn" onclick="calsum()">Reset </button>
+    </div>    
 </body>
 </html>
